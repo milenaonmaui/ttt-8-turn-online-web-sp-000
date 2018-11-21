@@ -8,6 +8,14 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
+def input_to_index(i)
+  i = i.to_i - 1
+end
+
+def move(board, i, character='X')
+  board[i] = character
+end
+
 def valid_move?(board, index)
   # if index.between?(1,9)
   #   if !position_taken?(board, index)
