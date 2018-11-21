@@ -8,6 +8,7 @@ def turn(board)
   else
     puts "Not a valid move"
     turn(board)
+  end
 end
 
 def display_board(board)
