@@ -1,7 +1,7 @@
 def turn(board)
   puts "Please enter 1-9:"
   input = gets.strip
-  puts(input)
+  puts input
 end
 
 def display_board(board)
